@@ -1,0 +1,38 @@
+.body {
+  justify-content: center;
+  direction: rtl;
+  /* display: inline-block;
+  margin-left: 40%; */
+  text-align: center;
+  color: rgb(59 58 83);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.innerBody {
+  text-align: right;
+  margin-right: 30%;
+}
+
+.publish {
+  display: flex;
+}
+
+.upup {
+  transition-property: transform;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
+}
+
+.upup:hover {
+  transform: translateY(-8px);
+}
+
+.bb:hover {
+  background-color: inherit !important;
+}
+
+.logo {
+  margin-top: 3%;
+  margin-left: 3%;
+}
